@@ -10,6 +10,6 @@ User.init({
     email:{
         type: DataTypes.STRING
     }
-}, {sequelize: db})
+}, {sequelize: db, timestamps: false})
 
 module.exports = User

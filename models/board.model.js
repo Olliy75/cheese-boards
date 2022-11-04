@@ -13,6 +13,6 @@ Board.init({
     rating:{
         type: DataTypes.NUMBER
     }
-}, {sequelize: db})
+}, {sequelize: db, timestamps: false})
 
 module.exports = Board

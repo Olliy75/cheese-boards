@@ -10,6 +10,6 @@ Cheese.init({
     description:{
         type: DataTypes.STRING
     }
-}, {sequelize: db})
+}, {sequelize: db, timestamps: false})
 
 module.exports = Cheese
